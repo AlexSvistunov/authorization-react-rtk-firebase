@@ -16,7 +16,7 @@ const HomePage = () => {
       {/* <Navigate to={'/login'}/> */}
       <h1>HOME PAGE</h1>
       <span>USER: {email}</span>
-      {email && <button>Logout</button>}
+      {email && <button onClick={logOutHandler}>Logout</button>}
     </>
   );
 };
