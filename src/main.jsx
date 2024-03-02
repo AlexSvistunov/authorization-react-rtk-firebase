@@ -13,3 +13,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     </BrowserRouter>
   </Provider>
 );
+
+// передавать не только email, но и токен и id
+// мы создавали свой хук чтобы делать логику
